@@ -1,0 +1,343 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgba(230, 219, 199, 0.911);
+}
+
+@media screen and (max-width: 768px) {
+  .firstset {
+    flex-wrap: wrap;
+  }
+  .divtwo {
+    margin: 0px;
+  }
+}
+
+nav {
+  background-color: rgba(230, 219, 199, 0.911 );
+  opacity: 0.8;
+  position: fixed;
+}
+
+.list {
+  margin-top: 15px;
+}
+
+.order {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  /* margin-left: 160px; */
+}
+
+.moto {
+  text-decoration: none;
+  font-size: large;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin-top: 60px; */
+}
+
+.moto:hover {
+  border-bottom: 2px solid greenyellow;
+  transition: 0.5ms;
+}
+
+#icom {
+  border: none;
+  outline: none;
+  background: transparent;
+  /* margin-right: 30px; */
+}
+
+#lorryb {
+  padding: 0px 40px;
+}
+
+.bud {
+  text-decoration: none;
+  color: black;
+}
+.bud:hover {
+  color: white;
+}
+
+.mobutton {
+  padding: 15px 35px;
+  font-size: medium;
+  border-radius: 30px;
+  background: rgb(10, 199, 10);
+}
+.mobutton:hover {
+  background: #000000;
+  transition: 2s;
+  text-decoration-color: white;
+}
+
+.firstset {
+  display: flex;
+  background-image: url(firstbackground.png);
+  background-repeat: no-repeat;
+  margin-top: 5rem;
+  border-radius: 30px;
+}
+
+.divone {
+  box-sizing: border-box;
+  width: 300px;
+  height: 30rem;
+  box-shadow: 0 0px 0px;
+  margin-top: 10rem;
+  margin-left: 120px;
+}
+
+.divtwo {
+  margin-left: 20rem;
+  margin-top: 60px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.simple {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin-top: 30px;
+  color: white;
+}
+
+.secondbutt {
+  padding: 15px 35px;
+  font-size: medium;
+  border-radius: 30px;
+  background: rgb(10, 199, 10);
+  border: none;
+  margin-top: 10rem;
+}
+.secondbutt:hover {
+  background: #000000;
+  transition: 2s;
+  text-decoration-color: white;
+}
+
+#data {
+  text-align: end;
+  color: #413a3a;
+}
+
+.withare {
+  text-align: center;
+  font-size: 60px;
+  text-wrap: wrap;
+  padding: opx 50px;
+  /* color: white; */
+  width: 1000px;
+  margin-left: 140px;
+  margin-top: 40px;
+}
+
+.never {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.divnever {
+  box-sizing: border-box;
+  width: 380px;
+  height: 30rem;
+  box-shadow: 0 0px 0px;
+  margin-top: 10rem;
+  margin-left: 15rem;
+}
+
+.childnever {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin-top: 30px;
+}
+
+#never {
+  font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.ne {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#freely {
+  color: rgba(154, 240, 154, 0.733);
+}
+
+.butup {
+  padding: 15px 35px;
+  font-size: medium;
+  border-radius: 30px;
+  background: transparent;
+  border: none;
+  margin-top: 2rem;
+  margin-right: 10px;
+}
+
+.learnmo {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid greenyellow;
+}
+
+.nevermiss {
+  display: flex;
+}
+
+.childnevere {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin-top: 30px;
+  color: white;
+}
+
+.imagenever {
+  margin-left: 13rem;
+}
+
+.laha {
+  display: flex;
+  margin-top: 10rem;
+  background: rgba(12, 11, 11, 0.979);
+}
+.nev {
+  box-shadow: 0 0px 0px;
+  height: 400px;
+  width: 100%;
+  margin-top: 10rem;
+  padding: 0px 50px;
+}
+.learnmoret {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(154, 240, 154, 0.733);
+}
+
+.genever {
+  margin-left: 1rem;
+  margin-top: 5rem;
+}
+.mother-genever {
+  background-image: url(opopo.png);
+  background-repeat: no-repeat;
+  margin-left: 10rem;
+}
+
+.mother-ge {
+  background-image: url(saymomo.png);
+  background-repeat: no-repeat;
+  margin-left: 10rem;
+}
+
+.general {
+  margin-top: 12rem;
+}
+
+.moth {
+  margin-left: 10rem;
+}
+
+.footermumm {
+  background: rgb(32, 29, 29);
+  padding: 0px 50px;
+}
+
+.sectionlastfoot {
+  display: flex;
+  margin-top: 10rem;
+  border-bottom: 2px solid rgb(128, 121, 121);
+}
+
+#secondio {
+  /* box-shadow: 0 2px 2px; */
+  width: 190px;
+  height: 200px;
+  margin-left: 5rem;
+  margin-top: 7rem;
+}
+.secondbu {
+  padding: 15px 35px;
+  font-size: medium;
+  border-radius: 30px;
+  background: rgb(10, 199, 10);
+  border: none;
+  margin-top: 6rem;
+}
+.secondbu:hover {
+  background: #000000;
+  transition: 2s;
+  text-decoration-color: white;
+}
+
+.wedo {
+  width: 190px;
+  height: 270px;
+  margin-left: 2rem;
+  margin-top: 7rem;
+}
+
+.wewhat {
+  color: white;
+}
+
+.dod {
+  color: white;
+  font-size: larger;
+  margin-top: 20px;
+  line-height: 40px;
+}
+
+#cop {
+  display: flex;
+  background-color: rgb(32, 29, 29);
+}
+
+.cop {
+  color: white;
+  margin-top: 3rem;
+  margin-left: 8rem;
+}
+
+.copi {
+  color: white;
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.working {
+  color: white;
+  text-decoration: none;
+}
+
+
+.sellman {
+  margin-left: 30rem;
+  margin-top: 3rem;
+}
+
+
+#selectbox {
+  padding: 10px 0px;
+  color: white;
+  box-sizing: 10px 10px;
+  width: 250px;
+  height: 50px;
+  background: rgb(32, 29, 29);
+  border-radius: 30px;
+
+  
+}
